@@ -32,7 +32,7 @@ export function HeroTile() {
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Welcome back,{" "}
             <span className="bg-gradient-to-r from-violet-400 to-purple-300 bg-clip-text text-transparent">
-              Alex
+              Abhijeet
             </span>{" "}
             👋
           </h1>
