@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} antialiased h-screen bg-background text-foreground flex overflow-hidden`}>
+      <body className={`${inter.variable} antialiased h-[100dvh] bg-background text-foreground flex overflow-hidden`}>
         {children}
       </body>
     </html>
