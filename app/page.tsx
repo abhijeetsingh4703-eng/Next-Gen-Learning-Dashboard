@@ -15,7 +15,7 @@ async function DashboardView() {
       <>
         <HeroTile />
         <ActivityTile />
-        <div className="col-span-1 md:col-span-3 rounded-3xl bg-card border border-border/50 p-8 text-center flex flex-col items-center justify-center">
+        <div className="col-span-1 md:col-span-2 lg:col-span-3 rounded-3xl bg-card border border-border/50 p-8 text-center flex flex-col items-center justify-center">
           <h2 className="text-xl font-bold mb-2">Supabase Configuration Missing</h2>
           <p className="text-gray-400 mb-4">Please add your Supabase URL and Anon Key to the <code>.env.local</code> file.</p>
         </div>
@@ -59,7 +59,7 @@ async function CoursesView() {
 
   return (
     <>
-      <div className="col-span-1 md:col-span-3 mb-4 flex items-center gap-4">
+      <div className="col-span-1 md:col-span-2 lg:col-span-3 mb-4 flex items-center gap-4">
         <div className="h-12 w-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center">
           <BookOpen className="text-indigo-400" />
         </div>
@@ -82,7 +82,7 @@ async function CoursesView() {
 
 function AnalyticsView() {
   return (
-    <div className="col-span-1 md:col-span-3 space-y-6">
+    <div className="col-span-1 md:col-span-2 lg:col-span-3 space-y-6">
       <div className="flex items-center gap-4 mb-6">
         <div className="h-12 w-12 rounded-2xl bg-purple-500/10 flex items-center justify-center">
           <BarChart2 className="text-purple-400" />
@@ -93,7 +93,7 @@ function AnalyticsView() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-card border border-border/50 p-6 rounded-3xl flex flex-col justify-between min-h-[160px]">
           <p className="text-gray-400 font-medium">Total Hours</p>
           <p className="text-4xl font-bold text-white">128.5<span className="text-lg text-gray-500 ml-1">hrs</span></p>
@@ -152,7 +152,7 @@ function SettingsView() {
   ];
 
   return (
-    <div className="col-span-1 md:col-span-3 max-w-3xl mx-auto w-full">
+    <div className="col-span-1 md:col-span-2 lg:col-span-3 max-w-3xl mx-auto w-full">
       <div className="flex items-center gap-4 mb-8">
         <div className="h-12 w-12 rounded-2xl bg-gray-500/10 flex items-center justify-center">
           <Settings className="text-gray-400" />

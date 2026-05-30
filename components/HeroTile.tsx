@@ -16,7 +16,7 @@ export function HeroTile() {
   return (
     <motion.section
       variants={itemVariants}
-      className="relative col-span-1 md:col-span-3 overflow-hidden rounded-3xl p-8 min-h-[200px] flex flex-col justify-between"
+      className="relative col-span-1 md:col-span-2 lg:col-span-3 overflow-hidden rounded-3xl p-8 min-h-[200px] flex flex-col justify-between"
       style={{
         background: "linear-gradient(135deg, #0f0f1a 0%, #1a0a2e 50%, #0d1117 100%)",
         border: "1px solid rgba(139,92,246,0.2)",

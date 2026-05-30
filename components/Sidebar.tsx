@@ -36,7 +36,7 @@ function SidebarNav() {
       >
         <div className="mb-8 flex items-center justify-center lg:justify-start">
           <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-purple-400" />
-          <span className="ml-3 hidden text-xl font-bold lg:block">NextLearn</span>
+          <span className="ml-3 block md:hidden text-xl font-bold lg:block">NextLearn</span>
         </div>
 
         <ul className="flex flex-1 flex-col gap-2">
@@ -66,7 +66,7 @@ function SidebarNav() {
                   )}
                   <div className="relative z-10 flex items-center">
                     <item.icon size={20} className="md:mx-auto lg:mx-0" />
-                    <span className="ml-3 hidden lg:block">{item.name}</span>
+                    <span className="ml-3 block md:hidden lg:block">{item.name}</span>
                   </div>
                 </Link>
               </li>

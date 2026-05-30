@@ -36,7 +36,7 @@ export function ActivityTile() {
   return (
     <motion.section
       variants={itemVariants}
-      className="col-span-1 flex flex-col rounded-3xl bg-card p-6 md:col-span-3 border border-border/50"
+      className="col-span-1 flex flex-col rounded-3xl bg-card p-6 md:col-span-2 lg:col-span-3 border border-border/50"
     >
       <h3 className="mb-4 font-semibold text-foreground">Learning Activity</h3>
       <div className="flex-1 flex flex-col justify-center items-center py-4">
