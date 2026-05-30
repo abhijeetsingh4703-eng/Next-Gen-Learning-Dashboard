@@ -54,6 +54,7 @@ npm install
 # Run the development server
 npm run dev
 ```
+Analytics and Setting are added as a bonus to give a better look to the project.
 
 Open [http://localhost:3000]in your browser.
 <img width="1919" height="929" alt="Screenshot 2026-05-30 193818" src="https://github.com/user-attachments/assets/e658301f-9907-4030-a085-8a146593f186" />
